@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reachy Mini — Object Detector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Reachy Mini — Object Detector</h1>
+        <div id="fps-badge">-- FPS</div>
+    </header>
+
+    <main>
+        <div id="video-container">
+            <img id="video-feed" src="/video_feed" alt="Live camera feed" />
+            <div id="video-overlay">Waiting for camera...</div>
+        </div>
+
+        <aside id="sidebar">
+            <div id="controls">
+                <h2>Controls</h2>
+                <label class="toggle">
+                    <input type="checkbox" id="tracking-checkbox" checked>
+                    <span class="toggle-label">Head Tracking</span>
+                </label>
+            </div>
+
+            <div id="detection-panel">
+                <h2>Detected Objects</h2>
+                <ul id="detection-list">
+                    <li class="placeholder">No objects detected</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <script src="/static/main.js"></script>
+</body>
+
+</html>

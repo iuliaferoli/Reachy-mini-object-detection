@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Reachy Mini Object Detector</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="hero">
+		<div class="hero-content">
+			<div class="app-icon">👁️🤖</div>
+			<h1>Reachy Mini Object Detector</h1>
+			<p class="tagline">Real-time object detection with head tracking — your Reachy Mini sees and follows objects!</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="main-card">
+			<div class="app-preview">
+				<div class="preview-image">
+					<div class="camera-feed">📷</div>
+					<div class="detection-overlay">
+						<span class="bbox">Person 95%</span>
+						<span class="bbox">Cup 87%</span>
+						<span class="bbox">Laptop 82%</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="app-details">
+				<h2>Features</h2>
+				<div class="template-info">
+					<div class="info-box">
+						<h3>Live Object Detection</h3>
+						<p>Uses SSD MobileNet V2 via TensorFlow Hub to detect objects in real-time at ~10 FPS on CPU. Draws bounding boxes and labels on the video stream.</p>
+					</div>
+					<div class="info-box">
+						<h3>Head Tracking</h3>
+						<p>The robot smoothly tracks the largest detected object, turning its head to follow it across the camera frame.</p>
+					</div>
+					<div class="info-box">
+						<h3>Antenna Reactions</h3>
+						<p>Antennas wiggle when a new type of object is spotted for the first time — a fun visual cue for discovery.</p>
+					</div>
+					<div class="info-box">
+						<h3>Web Dashboard</h3>
+						<p>Live annotated video feed with detection list, FPS counter, and a toggle to enable/disable head tracking.</p>
+					</div>
+				</div>
+
+				<div class="how-to-use">
+					<h3>How to Install</h3>
+					<div class="steps">
+						<div class="step">
+							<div class="step-number">1</div>
+							<div>
+								<h4>From the Dashboard</h4>
+								<p>Open the Reachy Mini dashboard, go to Apps, and click Install on this app.</p>
+							</div>
+						</div>
+						<div class="step">
+							<div class="step-number">2</div>
+							<div>
+								<h4>Or install manually</h4>
+								<p>pip install git+https://huggingface.co/spaces/backtoengineering/reachy_mini_object_detector</p>
+							</div>
+						</div>
+						<div class="step">
+							<div class="step-number">3</div>
+							<div>
+								<h4>Run it</h4>
+								<p>Start the app from the dashboard or run it directly. The web UI is available at http://0.0.0.0:8042</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>
+			👁️ Reachy Mini Object Detector &bull;
+			<a href="https://github.com/pollen-robotics" target="_blank">Pollen Robotics</a> &bull;
+			<a href="https://huggingface.co/spaces/pollen-robotics/reachy-mini-landing-page#apps" target="_blank">Browse More
+				Apps</a>
+		</p>
+	</div>
+</body>
+
+</html>
