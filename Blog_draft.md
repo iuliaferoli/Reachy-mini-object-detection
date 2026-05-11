@@ -8,14 +8,14 @@
 
 There is an app store of community-built projects you can explore and try, and easily contribute to. Anything conversational or camera-based is especially fun to build because of the hardware it ships with: a speaker, a microphone, and a camera, plus expressive antennas for emotions.
 
-![assistant](/img/assistant.png)
+![assistant](/IMG/assistant.png)
 
 This really highlights the unique new type of robot that Reachy Mini represents: it almost feels like it is a physical representation of an LLM or an AI agent, rather than a robot that has added AI to it. It does not have a body that moves around or hands to grab things, so its main selling point is really its brain. That design choice shapes what is most interesting to build with it.
 
 In this tutorial, we are going to build a TensorFlow object detection app and deploy it on the Reachy Mini, which will then allow us to do live object tracking. You can head over to the PyCharm channel for the full code breakdown and try it at home. All the code is in the [Reachy-mini-object-detection GitHub repository](https://github.com/iuliaferoli/Reachy-mini-object-detection).
 
 For an introduction to the Robot, you can first watch [Iulia's video](https://www.youtube.com/watch?v=2D_EAcDgPEI) here!
-![](/img/thumb1.jpg)
+![](/IMG/thumb1.jpg)
 
 ---
 
